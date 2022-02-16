@@ -48,6 +48,10 @@ public class DemoFragment extends DialogFragment {
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
+        binding.typeWriterView.setDelay(500);
+        binding.typeWriterView.setWithMusic(false);
+        binding.typeWriterView.animateText("测试打字肖哥测试打字肖哥测试打字肖哥测试打字肖哥测试打字肖哥测试打字肖哥");
+
     }
 
     @Override
